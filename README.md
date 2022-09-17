@@ -58,5 +58,5 @@ affect the result of the accuracy and standard deviation drastically.
                                             CONCLUSION/BEST MODEL
  Overall, no model was bad in terms of cross validation results. Both the training and test data had relatively close 
  accuracy and standard deviation, indicating that there was no over/underfitting. The best model to predict tumor states
-given the datset is the logistic regression. It had a very high accuracy percentage, and a low standard deviation. Linear
-SVC was the second best model. Linear models worked the best for this dataset showing that the datset was linearly seperable
+given the datset is Linear SVC. It had a very high accuracy percentage, and a low standard deviation. Logistic regression
+was the second best model. Linear models worked the best for this dataset showing that the datset was linearly seperable
