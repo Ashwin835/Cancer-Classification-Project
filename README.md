@@ -3,8 +3,8 @@
 # Project Description
  This Dataset was obtained from the url: https://www.kaggle.com/datasets/shravan3273/breast-cancer-classifiction
  
- Given a bunch of features of a tumor, we want to find a model that gives the best predictions on if a tumor is benign
- or malignant. Finding the best fitting model has many factors to it, but for this project only the 
+ Given various features of a cell nucleus, we want to find a model that gives the best predictions on if someone's cancer 
+ diagnosis is either benign or malignant. Finding the best fitting model has many factors to it, but for this project only the 
  cross val score is being looked at, along with any major overfitting/underfitting. Given the size of the data, 10 folds
 for cross validation was chosen as there wasn't any over/underfitting as well. Some of the models tested are logistic
  regression, K neighbors classifier, naive bayes, support vector classification (linear and rbf), decision tree 
