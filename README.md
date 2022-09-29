@@ -13,9 +13,8 @@ classification and random forest classification
 
 # Project Results
                                           LOGISTIC REGRESSION
- Overall this model is really good for both the trained and test data, shwoing there was no over/underfitting. The test data
-on cross validiation was very high accuracy with low standard deviation. The training data didn't differ much from the 
- test data
+ Overall this model is really good for both the trained and test data. The test data on cross validiation was very high accuracy
+ with low standard deviation. The training data didn't differ much from the test data
  
  
                                           K NEIGHBORS CLASSIFICATION
@@ -50,13 +49,14 @@ affect the result of the accuracy and standard deviation drastically.
  
  
                                          RANDOM FOREST CLASSIFICATION 
- Just like decision tree classification,Random Forest Classification has good results but is not the best choice still. 
+ Just like decision tree classification,Random Forest Classification has good results but is not the best choice. 
  With the n_estmates parameter, trees lower than 10 gives worse accuracy with higher standard deviation. Trees higher
  than 10 are also good, but then the amount of data per tree decreases, and overfitting can be possible
  
  
                                             CONCLUSION/BEST MODEL
  Overall, no model was bad in terms of cross validation results. Both the training and test data had relatively close 
- accuracy and standard deviation, indicating that there was no over/underfitting. The best model to predict tumor states
-given the datset is Linear SVC. It had a very high accuracy percentage, and a low standard deviation. Logistic regression
-was the second best model. Linear models worked the best for this dataset showing that the datset was linearly seperable
+ accuracy and standard deviation, indicating that there was no significant over/underfitting. The best model to predict
+ tumor states given the datset is Linear SVC. It had a very high accuracy percentage, and a low standard deviation. 
+ Logistic regression was the second best model. Linear models worked the best for this dataset showing that the datset was
+ linearly seperable.
