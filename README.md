@@ -1,4 +1,4 @@
-# Classification-Model-Project
+# Cancer Classification Project
 
 # Project Description
  This Dataset was obtained from the url: https://www.kaggle.com/datasets/shravan3273/breast-cancer-classifiction
